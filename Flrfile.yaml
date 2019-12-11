@@ -1,0 +1,18 @@
+# Flrfile.yaml is used to config the asset directories that needs to be searched in current flutter project directory.
+
+assets:
+
+  # config the image asset directories that needs to be searched
+  # supported image assets: [".png", ".jpg", ".jpeg", ".gif", ".webp", ".icon", ".bmp", ".wbmp", ".svg"]
+  # config example: - lib/assets/images
+  images:
+    - lib/assets/images
+
+  # config the text asset directories that needs to be searched
+  # supported text assets: [".txt", ".json", ".yaml", ".xml"]
+  # config example: - lib/assets/texts
+  texts:
+    - lib/assets/jsons
+    - lib/assets/yamls
+
+
