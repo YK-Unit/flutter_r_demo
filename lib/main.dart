@@ -68,12 +68,12 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   void _readTestJson() async {
-    var rawString = await R_Text.a$$test$_json();
+    var rawString = await R_Text.a$___test_json();
     _alertMessage(rawString);
   }
 
   void _readTestYaml() async {
-    var rawString = await R_Text.a$$test$_yaml();
+    var rawString = await R_Text.a____test_yaml();
     _alertMessage(rawString);
   }
 
@@ -111,13 +111,13 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
             CupertinoButton(
               child: Text(
-                "read test.json",
+                "read  \$%^&test.json",
               ),
               onPressed: _readTestJson,
             ),
             CupertinoButton(
               child: Text(
-                "read test.yaml",
+                "read  ~!@*test.yaml",
               ),
               onPressed: _readTestYaml,
             ),

@@ -128,10 +128,10 @@ class R_Svg {
 // ignore: camel_case_types
 class R_Text {
 
-  /// asset: assets/jsons/$$test$.json
+  /// asset: assets/jsons/$%^&test.json
   // ignore: non_constant_identifier_names
-  static Future<String> a$$test$_json() {
-    var assetFullPath = "packages/flutter_r_demo/assets/jsons/\$\$test\$.json";
+  static Future<String> a$___test_json() {
+    var assetFullPath = "packages/flutter_r_demo/assets/jsons/\$%^&test.json";
     var str = rootBundle.loadString(assetFullPath);
     return str;
   }
@@ -144,18 +144,18 @@ class R_Text {
     return str;
   }
 
-  /// asset: assets/yamls/$$test$.yaml
-  // ignore: non_constant_identifier_names
-  static Future<String> a$$test$_yaml() {
-    var assetFullPath = "packages/flutter_r_demo/assets/yamls/\$\$test\$.yaml";
-    var str = rootBundle.loadString(assetFullPath);
-    return str;
-  }
-
   /// asset: assets/yamls/test.yaml
   // ignore: non_constant_identifier_names
   static Future<String> test_yaml() {
     var assetFullPath = "packages/flutter_r_demo/assets/yamls/test.yaml";
+    var str = rootBundle.loadString(assetFullPath);
+    return str;
+  }
+
+  /// asset: assets/yamls/~!@*test.yaml
+  // ignore: non_constant_identifier_names
+  static Future<String> a____test_yaml() {
+    var assetFullPath = "packages/flutter_r_demo/assets/yamls/~!@*test.yaml";
     var str = rootBundle.loadString(assetFullPath);
     return str;
   }
