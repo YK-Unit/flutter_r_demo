@@ -124,6 +124,7 @@ class R_Svg {
   }
 
 }
+
 /// Because dart does not support nested class, so use class `R_Json` to replace nested class `R.Json`
 // ignore: camel_case_types
 class R_Text {
